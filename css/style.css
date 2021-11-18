@@ -1,0 +1,44 @@
+/* add imported fonts
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #a56786;
+	/* --page-colour: rgb(224, 214, 152); */
+	--heading-text-color: #301824;
+	--heading-text-size: 48px;
+	--page-thickness: 60px;
+}
+
+body {
+	padding: 0;
+	outline: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+/* Global Styles */
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.al-items {
+	align-items: center;
+}
+
+align-end {
+	align-self: flex-end;
+}
+
+.heading-1 {
+	font-size: var(--heading-text-size, 48px);
+	color: var(--heading-text-color, #301824);
+}

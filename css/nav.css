@@ -1,0 +1,29 @@
+.nav-bar {
+	background-color: #ffffff;
+	padding: 20px;
+	box-shadow: 2px -4px 16px 1px #dddcdc;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	margin-top: 0;
+}
+
+.nav-group {
+	margin: 0;
+	list-style: none;
+	display: inline-flex;
+}
+
+.nav-link {
+	text-decoration: none;
+	/* font-size: 20px; */
+	font-weight: 600;
+	text-align: end;
+}
+
+/* move to logo.css */
+
+/* .logo {
+	width: 24px;
+} */

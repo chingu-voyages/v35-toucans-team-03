@@ -1,0 +1,48 @@
+
+.content-wrap {
+	overflow-y: scroll;
+	height: calc(100vh - 60px);
+	position: relative;
+	/* padding-top: 60px; */
+}
+
+.hero-content {
+	overflow: hidden;
+}
+
+/*  #a56786 */
+
+.hero-description {
+	width: 50%;
+	z-index: 2;
+	order: 1;
+	flex: 1;
+	padding-left: var(--page-thickness, 60px);
+}
+
+.hero-visual {
+	width: 50%;
+	padding-right: 200px;
+	order: 2;
+	flex: 1;
+}
+
+.hero-img {
+	object-fit: cover;
+	height: 90vh;
+	/* margin: 0 -130px; */
+}
+
+.hero-text {
+	color: var(--primary-color, #a56786);
+	padding-bottom: 8px;
+}
+
+.bg-triangle {
+	position: absolute;
+	top: 16px;
+	width: 12vw;
+	right: 0;
+	opacity: 0.9;
+	z-index: -10;
+}
