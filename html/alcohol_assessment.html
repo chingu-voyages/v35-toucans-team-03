@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alcohol Consumption Assessment</title>
+	</head>
+	<body>
+
+        <div id="wrapper">
+            <h1>The Alcohol Use Disorders Identification Test: </h1>
+            <p>
+                Read questions as written. Record answers carefully. Begin the AUDIT by saying
+                    “Now I am going to ask you some questions about your use of alcoholic beverages
+                    during this past year.” Explain what is meant by “alcoholic beverages” by using
+                    local examples of beer, wine, vodka, etc. Code answers in terms of “standard
+                    drinks”. Place the correct answer number in the box at the right.
+
+            </p>
+            <hr>
+
+            <form id="assessment">
+              <!-- Question 1 -->
+
+              <h2>How often do you have a drink containing alcohol?</h2>
+
+              <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+              <!-- The value is which answer the choice corresponds to. -->
+
+              <label><input type="radio" name="q1" value="c1">
+                Never [Skip to Qs 9-10]
+              </label><br />
+              <label><input type="radio" name="q1" value="c2">
+                Monthly or less
+              </label><br />
+              <label><input type="radio" name="q1" value="c3">
+                2 to 4 times a month
+              </label><br />
+              <label><input type="radio" name="q1" value="c4">
+                2 to 3 times a week
+              </label><br />
+              <label><input type="radio" name="q1" value="c5">
+                4 or more times a week
+              </label><br />
+
+          
+              <!-- Question 2 -->
+              <h2>How many drinks containing alcohol do you haveon a typical day when you are drinking?</h2>
+              <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+              <label><input type="radio" name="q2" value="c1">
+                1 or 2
+              </label><br />
+              <label><input type="radio" name="q2" value="c2">
+                3 or 4
+              </label><br />
+              <label><input type="radio" name="q2" value="c3">
+                5 or 6
+              </label><br />
+              <label><input type="radio" name="q2" value="c4">
+                7, 8, or 9
+              </label><br />
+              <label><input type="radio" name="q2" value="c5">
+                10 or more
+              </label><br />
+              
+              <!-- Question 3 -->
+              <h2>How often do you have six or more drinks on one occasion?</h2>
+              <!-- Choices for the third question -->
+              <label><input type="radio" name="q3" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q3" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q3" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q3" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q3" value="c5">
+                Daily or almost daily
+              </label><br />
+
+              
+              <!-- Question 4 -->
+              <h2>How often during the last year have you found that you were not able to stop drinking once you had started?</h2>
+              <!-- Choices for the question -->
+              <label><input type="radio" name="q4" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q4" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q4" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q4" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q4" value="c5">
+                Daily or almost daily
+              </label><br />
+
+              <!-- Question 5 -->
+              <h2>How often during the last year have you failed to
+                do what was normally expected from you
+                because of drinking?</h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q5" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q5" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q5" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q5" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q5" value="c5">
+                Daily or almost daily
+              </label><br />
+
+
+              <!-- Question 6 -->
+              <h2>How often during the last year have you needed
+                a first drink in the morning to get yourself going
+                after a heavy drinking session?</h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q6" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q6" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q6" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q6" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q6" value="c5">
+                Daily or almost daily
+              </label><br />
+
+
+              <!-- Question 7 -->
+              <h2>How often during the last year have you had a
+                feeling of guilt or remorse after drinking?</h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q7" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q7" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q7" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q7" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q7" value="c5">
+                Daily or almost daily
+              </label><br />
+
+
+              <!-- Question 8 -->
+              <h2>How often during the last year have you been
+                unable to remember what happened the night
+                before because you had been drinking?
+                </h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q8" value="c1">
+                Never
+              </label><br />
+              <label><input type="radio" name="q8" value="c2">
+                Less than monthly
+              </label><br />
+              <label><input type="radio" name="q8" value="c3">
+                Monthly
+              </label><br />
+              <label><input type="radio" name="q8" value="c4">
+                Weekly
+              </label><br />
+              <label><input type="radio" name="q8" value="c5">
+                Daily or almost daily
+              </label><br />
+
+
+              <!-- Question 9 -->
+              <h2>Have you or someone else been injured as a
+                result of your drinking?</h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q9" value="c1">
+                No
+              </label><br />
+              <label><input type="radio" name="q9" value="c3">
+                Yes, but not in the last year
+              </label><br />
+              <label><input type="radio" name="q9" value="c5">
+                Yes, during the last year
+              </label><br />
+
+
+              <!-- Question 10 -->
+              <h2> Has a relative or friend or a doctor or another
+                health worker been concerned about your drinking or suggested you cut down?</h2>
+              <!-- Choices -->
+              <label><input type="radio" name="q10" value="c1">
+                No
+              </label><br />
+              <label><input type="radio" name="q10" value="c3">
+                Yes, but not in the last year
+              </label><br />
+              <label><input type="radio" name="q10" value="c5">
+                Yes, during the last year
+              </label><br />
+             
+                    <hr>
+              <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+            <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+            </form>
+            
+            
+            <div id="answer">Your result will show up here!</div>
+          </div>
+    </body>
+</html>
