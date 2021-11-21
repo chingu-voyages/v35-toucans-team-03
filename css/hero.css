@@ -31,7 +31,7 @@
 .hero-img {
 	object-fit: cover;
 	height: 560px;
-	width: 100%;
+	/* width: 100%; */
 	/* margin: 0 -130px; */
 }
 
@@ -66,13 +66,25 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.hero-visual {
+		height: 50;
+		/* width: 100%; */
+	}
+}
+@media screen and (max-width: 992px) {
 	.hero-description,
 	.hero-visual {
 		width: 100%;
 		flex-basis: 100%;
 	}
+	.hero-description {
+		order: 2;
+	}
+	.hero-visual {
+		order: 1;
+	}
 	.hero-img {
 		height: 100%;
-		width: 100%;
+		/* width: 100%; */
 	}
 }
