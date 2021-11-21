@@ -9,11 +9,20 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/hero.css" />
+		<link rel="stylesheet" href="css/assessments-section.css" />
 		<title>Compass - Psychology Assessments For Mental Health Awareness</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&family=Poppins:wght@400;500;900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<div class="container">
@@ -28,13 +37,17 @@
 					<div class="nav-links row gutter-lg">
 						<nav class="nav-wrap al-center">
 							<ul class="nav-group row gutter-lg">
-								<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-								<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+								<li class="nav-item"><a href="./" class="nav-link">Home</a></li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Assessments</a>
+									<a href="#hero-section" class="nav-link">About</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Services</a>
+									<a href="#assessments-section" class="nav-link"
+										>Assessments</a
+									>
+								</li>
+								<li class="nav-item">
+									<a href="#services-section" class="nav-link">Services</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Contact Us</a>
@@ -45,11 +58,11 @@
 					</div>
 				</div>
 			</header>
-
-			<main>
-				<div class="content-wrap">
+			<!-- </div> -->
+			<div class="content-wrap">
+				<main>
 					<section class="" id="hero-section">
-						<div class="hero-content row al-center">
+						<div class="hero-content row al-center j-center">
 							<div class="hero-description column gutter-lg">
 								<div class="hero-text-wrap column gutter-md">
 									<h1 class="hero-title heading-1">
@@ -74,7 +87,7 @@
 										j-center
 									"
 								>
-									take assessment
+									<span class="btn-text">take assessment</span>
 									<img
 										src="./assets/icons/bi_arrow-right.svg"
 										alt="arrow icon"
@@ -102,11 +115,211 @@
 						srcset=""
 					/>
 					<!-- <img src="" alt="background circle pattern" /> -->
-					<section>
-						<!-- assessments section -->
+
+					<!-- assessments section -->
+					<section id="assessments-section" class="gutter-lg">
+						<div
+							class="
+								assessments-content
+								column
+								space-btw
+								gutter-xxxl
+								al-center
+								j-center
+							"
+						>
+							<div class="assessments-header gutter-md column al-center">
+								<img
+									src="./assets/icons/assessments-visual.svg"
+									alt="assessments icon"
+								/>
+								<div class="assessments-text">
+									<h2 class="assessments-title">
+										Choose Your Preferred Assessments
+									</h2>
+									<p class="assessments-helper-text">
+										Take our 5-minute quick assessments to check your mental
+										health status.
+									</p>
+								</div>
+							</div>
+
+							<div class="assessments-card-wrap row al-center j-center">
+								<div
+									class="assessment-card column space-btw al-center j-center"
+								>
+									<img
+										class="assessment-visual"
+										src="./assets/images/alcohol.svg"
+										alt=""
+									/>
+									<div class="assessment-info">
+										<h3 class="assessment-title">Alcohol Consumption</h3>
+										<p class="assessment-helper-text">
+											Find out your current status based on your response
+										</p>
+									</div>
+									<a href="./html/alcohol_assessment.html">
+										<button class="call-to-action btn assessment-btn">
+											start test
+										</button>
+									</a>
+								</div>
+								<div
+									class="assessment-card column space-btw al-center j-center"
+								>
+									<img
+										class="assessment-visual"
+										src="./assets/images/alcohol.svg"
+										alt=""
+									/>
+									<div class="assessment-info">
+										<h3 class="assessment-title">Eating disorder</h3>
+										<p class="assessment-helper-text">
+											Find out your current status based on your response
+										</p>
+									</div>
+									<a href="./html/alcohol_assessment.html">
+										<button class="call-to-action btn assessment-btn">
+											start test
+										</button>
+									</a>
+								</div>
+								<!-- <div class="assessments-card"></div>
+									<div class="assessments-card"></div> -->
+							</div>
+						</div>
 					</section>
-				</div>
-			</main>
+
+					<article id="services-section">
+						<div class="result">
+							<div class="result-content">
+								<div class="flex-wrapper">
+									<div class="single-chart">
+										<svg viewBox="0 0 36 36" class="circular-chart purple">
+											<path
+												class="circle-bg"
+												d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+											/>
+											<path
+												class="circle"
+												stroke-dasharray="100, 100"
+												d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+											/>
+											<text x="18" y="20.35" class="percentage">100%</text>
+										</svg>
+									</div>
+								</div>
+								<div class="line-1"></div>
+								<h2 class="result-heading">YOUR RESULT</h2>
+								<div class="result-title">
+									<h2>Self Aware</h2>
+									<p>
+										Your result is associated with <br />
+										typical done likelyhood ...
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="compass-features">
+							<div class="compass-features-heading">
+								<h1>What We Do?</h1>
+								<p>
+									Features at Compass that <br />
+									makes us unique
+								</p>
+							</div>
+							<div class="compass-features-body">
+								<div class="compass-display">
+									<img src="./images/1.png" alt="one" />
+									<div>
+										<h1>Pyschological Assessments</h1>
+										<p>Tailored to suit your needs.</p>
+									</div>
+								</div>
+								<div class="compass-display">
+									<img src="./images/2.png" alt="two" />
+									<div>
+										<h1>Multiple-Choice Questions Style</h1>
+										<p>Variety of options to choose from</p>
+									</div>
+								</div>
+								<div class="compass-display">
+									<img src="./images/3.png" alt="three" />
+									<div>
+										<h1>Performance Scores</h1>
+										<p>Receive your results within seconds</p>
+									</div>
+								</div>
+								<div class="compass-display">
+									<img src="./images/4.png" alt="four" />
+									<div>
+										<h1>Personalised Feedback</h1>
+										<p>Deliver results immediately</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</main>
+				<footer>
+					<div class="start-assessment">
+						<h3>Get Started Today</h3>
+						<h2>Take an Assessment</h2>
+						<a href="/"><button>START</button></a>
+					</div>
+					<div class="footer">
+						<div class="footer-content">
+							<div class="footer-title">
+								<div class="footer-logo">
+									<img src="./images/logo.png" alt="logo" />
+									<h2>Compass</h2>
+								</div>
+								<div>
+									<p>
+										We believe in a scientifically tested <br />
+										psychology assessments for better <br />
+										mental health.
+									</p>
+								</div>
+								<div class="footer-socials">
+									<a class="twitter" href="/twitter">
+										<img src="./images/Twitter(1).png" alt="twitter" />
+									</a>
+									<a href="/instagram">
+										<img src="./images/instagram(1).png " alt="instagram" />
+									</a>
+									<a href="/facebook">
+										<img src="./images/Facebook(1).png " alt="facebook" />
+									</a>
+								</div>
+							</div>
+							<div>
+								<div class="footer-links">
+									<a class="footer-link" href="/Home">HOME</a>
+									<a class="footer-link" href="/Services">SERVICES</a>
+									<a class="footer-link" href="/Faq">FAQ</a>
+									<a class="footer-link" href="/Sponsorship">SPONSORSHIP</a>
+
+									<a class="footer-link" class="footer-link" href="/About"
+										>ABOUT</a
+									>
+									<a class="footer-link" href="/Assessment">ASSESSMENTS</a>
+									<a class="footer-link" href="/Privacy">PRIVACY POLICY</a>
+									<a class="footer-link" href="/Contact">CONTACT</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer-ending">
+							&#169; 2021. Compass Team. All Rights Reserved
+						</div>
+					</div>
+				</footer>
+			</div>
 		</div>
 	</body>
 </html>
