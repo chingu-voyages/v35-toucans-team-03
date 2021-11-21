@@ -1,13 +1,14 @@
 .content-wrap {
 	overflow-y: scroll;
-	height: calc(100vh - 60px);
+	height: calc(100vh - 64px);
+
 	position: relative;
 	/* padding-top: 60px; */
 }
 
 .hero-content {
 	overflow: hidden;
-	padding: 48px 91px;
+	padding: 72px 60px;
 	/* var(--page-thickness, 91px); */
 }
 
@@ -24,11 +25,13 @@
 	width: 60%;
 	order: 2;
 	flex: 1;
+	margin-top: 48px;
 }
 
 .hero-img {
 	object-fit: cover;
-	height: 90vh;
+	height: 560px;
+	width: 100%;
 	/* margin: 0 -130px; */
 }
 
@@ -42,7 +45,7 @@
 	line-height: 160%;
 	margin: 0;
 	/* or 29px */
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 
 	color: #ba68c8;
 }
@@ -60,4 +63,16 @@
 	right: 40px;
 	opacity: 0.9;
 	z-index: -10;
+}
+
+@media screen and (max-width: 1024px) {
+	.hero-description,
+	.hero-visual {
+		width: 100%;
+		flex-basis: 100%;
+	}
+	.hero-img {
+		height: 100%;
+		width: 100%;
+	}
 }
