@@ -40,7 +40,7 @@
 }
 
 .assessments-card-wrap {
-	column-gap: 72px;
+	gap: 72px;
 }
 
 /* Assessments Card */
@@ -93,4 +93,9 @@
 	background: #ba68c8;
 	border-radius: 32px;
 	padding: 8px 30px;
+	font-weight: 900;
+}
+
+.assessment-btn:hover {
+	background-color: #ad0093;
 }

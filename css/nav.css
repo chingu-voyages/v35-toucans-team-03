@@ -59,15 +59,12 @@
 	color: #ffffff;
 	font-family: Poppins;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 800;
 	font-size: 18px;
 	line-height: 18px;
-<<<<<<< HEAD
 	outline: 0;
-=======
-
->>>>>>> 437ef2da787062026f9a671c012c7eba008607d2
 	background: var(--accent-color);
+	letter-spacing: 1px;
 }
 
 .call-to-action {
@@ -79,6 +76,6 @@
 }
 
 .nav-btn:hover {
-	box-shadow: 0px 5px 12px rgba(207, 202, 202, 0.25);
+	box-shadow: 0px 5px 12px rgba(167, 164, 164, 0.25);
 	background: var(--accent-color);
 }
