@@ -1,4 +1,5 @@
 .content-wrap {
+
 	overflow-y: scroll;
 	height: calc(100vh - 64px);
 
@@ -10,11 +11,13 @@
 	overflow: hidden;
 	padding: 72px 60px;
 	/* var(--page-thickness, 91px); */
+
 }
 
 /*  #a56786 */
 
 .hero-description {
+
 	width: 50%;
 	z-index: 2;
 	order: 1;
@@ -87,4 +90,5 @@
 		height: 100%;
 		/* width: 100%; */
 	}
+
 }
