@@ -133,6 +133,8 @@ article {
 .flex-wrapper {
 	display: flex;
 	flex-flow: row nowrap;
+	display: flex;
+	flex-flow: row nowrap;
 }
 
 .single-chart {
