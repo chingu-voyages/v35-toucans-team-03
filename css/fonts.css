@@ -17,7 +17,12 @@
 		url("../assets/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf")
 			format("truetype"),
 		url("../assets/fonts/Fira_Sans/FiraSans-Italic.ttf") format("truetype"),
+<<<<<<< HEAD
 		
+=======
+		url("../assets/fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype"),
+		url("../assets/fonts/Fira_Sans/FiraSans-LightItalic.ttf") format("truetype"),
+>>>>>>> 437ef2da787062026f9a671c012c7eba008607d2
 		url("../assets/fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype"),
 		url("../assets/fonts/Fira_Sans/FiraSans-MediumItalic.ttf")
 			format("truetype"),
@@ -30,6 +35,7 @@
 }
 
 @font-face {
+<<<<<<< HEAD
 	font-family: "Fira Sans";
 	src: url("../assets/fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
 	font-weight: 300;
@@ -45,6 +51,8 @@
 }
 
 @font-face {
+=======
+>>>>>>> 437ef2da787062026f9a671c012c7eba008607d2
 	font-family: "Poppins";
 	src: url("../assets/fonts/Poppins/Poppins-Black.ttf") format("truetype");
 	/* url("../assets/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype"),

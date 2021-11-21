@@ -62,7 +62,11 @@
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 18px;
+<<<<<<< HEAD
 	outline: 0;
+=======
+
+>>>>>>> 437ef2da787062026f9a671c012c7eba008607d2
 	background: var(--accent-color);
 }
 
