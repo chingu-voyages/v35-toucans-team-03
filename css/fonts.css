@@ -29,6 +29,7 @@
 }
 
 @font-face {
+
 	font-family: "Fira Sans";
 	src: url("../assets/fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
 	font-weight: 300;
@@ -52,6 +53,7 @@
 }
 
 @font-face {
+
 	font-family: "Poppins";
 	src: url("../assets/fonts/Poppins/Poppins-Black.ttf") format("truetype");
 	/* url("../assets/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype"),
@@ -85,6 +87,7 @@
 	font-style: normal;
 }
 
+
 @font-face {
 	font-family: "Poppins";
 	src: url("../assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
@@ -92,6 +95,7 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
 
 @font-face {
 	font-family: "Poppins";
@@ -101,6 +105,7 @@
 	font-style: normal;
 }
 
+
 @font-face {
 	font-family: "Poppins";
 	src: url("../assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
@@ -108,3 +113,4 @@
 	font-weight: 300;
 	font-style: normal;
 }
+
