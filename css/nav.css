@@ -7,6 +7,7 @@
 	width: 100%;
 	z-index: 100;
 	margin-top: 0;
+	height: auto;
 }
 
 .nav-links,
@@ -60,13 +61,12 @@
 	font-family: Poppins;
 	font-style: normal;
 
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 18px;
 	line-height: 18px;
 	outline: 0;
 	background: var(--accent-color);
 	letter-spacing: 1px;
-
 }
 
 .call-to-action {
@@ -78,8 +78,13 @@
 }
 
 .nav-btn:hover {
-
 	box-shadow: 0px 5px 12px rgba(167, 164, 164, 0.25);
 
 	background: var(--accent-color);
+}
+
+@media screen and (max-width: 992px) {
+	.nav-links {
+		display: none;
+	}
 }
