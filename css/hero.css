@@ -1,7 +1,6 @@
 .content-wrap {
 	overflow-y: scroll;
 	height: calc(100vh - 64px);
-
 	position: relative;
 	/* padding-top: 60px; */
 }
@@ -40,7 +39,7 @@
 	padding-bottom: 8px;
 	font-family: Poppins;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 160%;
 	margin: 0;
