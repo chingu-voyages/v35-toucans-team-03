@@ -85,6 +85,14 @@ body {
 	row-gap: var(--md-gutter, 36px);
 }
 
+/* .ease-in {
+	transition: ease-in 2s;
+} */
+
+hide-visibility {
+	opacity: 0;
+}
+
 .heading-1 {
 	font-size: var(--heading-text-size, 48px);
 	color: var(--heading-text-color, #301824);
