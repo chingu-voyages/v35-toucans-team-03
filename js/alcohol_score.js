@@ -1,3 +1,8 @@
+/* the steps :
+we should initialise the scores
+if the user choose this ,that's what gonna happen
+display the result */
+
 // function to calculate the score of the assessement
 function tabulateAnswers() {
     // initialize variables for each choice's score
