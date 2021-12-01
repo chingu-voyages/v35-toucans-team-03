@@ -1,42 +1,35 @@
 # Compass App
 
-<style>
-    #stack{
-       display: flex;
-    }
-    button {
-        border: none;
+<div>
+    <button style='border: none;
         border-radius: 2px;
         font-weight: bold;
         padding: 4px;
-        margin-right: 4px;
-        background: #333333;
-        color: #cecece;
-
-    }
-    #html {
-        background: #f06529;
-        color: #333333;
-    }
-    #css{
-         background: #2965f1;
-        color: #efefef;
-    }
-    #javascript {
-         background: #f0db4f;
-        color: #333333;
-    }
-    #chingu{
-        background: green;
-    }
-</style>
-
-<div id='stack'>
-    <button id='html'>HTML</button>
-    <button id='css'>CSS</button>
-    <button id='javascript'>JAVASCRIPT</button>
-    <button id='chingu'>CHINGU</button>
-     <button id='year'>2021</button>
+        margin-right: 4px; background: #f06529;
+        color: #333333;'>HTML</button>
+    <button style='border: none;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 4px;
+        margin-right: 4px; background: #2965f1;
+        color: #efefef;'>CSS</button>
+    <button style="border: none;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 4px;
+        margin-right: 4px; background: #f0db4f;
+        color: #333333;">JAVASCRIPT</button>
+    <button style='border: none;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 4px;
+        margin-right: 4px; background: green; color: #cecece'>CHINGU</button>
+     <button style='border: none;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 4px;
+        margin-right: 4px; background: #333333;
+        color: #cecece;'>2021</button>
 </div>
 <br>
 
