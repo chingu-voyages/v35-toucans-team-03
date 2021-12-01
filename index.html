@@ -57,7 +57,12 @@
 								</li> -->
 							</ul>
 						</nav>
-						<button class="call-to-action btn nav-btn">get started</button>
+						<button
+							class="call-to-action btn nav-btn"
+							onclick="startAssessment()"
+						>
+							get started
+						</button>
 					</div>
 				</div>
 			</header>
@@ -89,6 +94,7 @@
 										al-center
 										j-center
 									"
+									onclick="startAssessment()"
 								>
 									<span class="btn-text">take assessment</span>
 									<img
@@ -340,5 +346,10 @@
 		</div>
 
 		<script src="./scripts/index.js"></script>
+		<script>
+			function startAssessment() {
+				location.href = "#assessments-section";
+			}
+		</script>
 	</body>
 </html>
