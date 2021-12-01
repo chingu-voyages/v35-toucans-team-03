@@ -28,7 +28,7 @@
 	<body>
 		<div class="container">
 			<header id="nav-section">
-				<div class="nav-bar row j-center al-center space-btw">
+				<div class="nav-bar row j-center al-center space-btw" id="nav--bar">
 					<img
 						src="assets/icons/logo-lg.svg"
 						class="logo"
@@ -38,10 +38,12 @@
 					<div class="nav-links row gutter-lg">
 						<nav class="nav-wrap al-center">
 							<ul class="nav-group row gutter-lg">
-								<li class="nav-item"><a href="./" class="nav-link">Home</a></li>
 								<li class="nav-item">
-									<a href="#hero-section" class="nav-link">About</a>
+									<a href="#hero-section" class="nav-link">Home</a>
 								</li>
+								<!-- <li class="nav-item nav-link">
+									<a href="#hero-section" class="nav-link">About</a>
+								</li> -->
 								<li class="nav-item">
 									<a href="#assessments-section" class="nav-link"
 										>Assessments</a
@@ -50,9 +52,9 @@
 								<li class="nav-item">
 									<a href="#services-section" class="nav-link">Services</a>
 								</li>
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a href="#" class="nav-link">Contact Us</a>
-								</li>
+								</li> -->
 							</ul>
 						</nav>
 						<button class="call-to-action btn nav-btn">get started</button>
@@ -60,10 +62,10 @@
 				</div>
 			</header>
 			<!-- </div> -->
-			<div class="content-wrap">
+			<div class="content-wrap" id="scroll-div">
 				<main>
 					<section class="" id="hero-section">
-						<div class="hero-content row al-center j-center">
+						<div class="hero-content animate row al-center j-center">
 							<div class="hero-description column gutter-lg">
 								<div class="hero-text-wrap column gutter-md">
 									<h1 class="hero-title heading-1">
@@ -147,7 +149,14 @@
 
 							<div class="assessments-card-wrap row al-center j-center">
 								<div
-									class="assessment-card column space-btw al-center j-center"
+									class="
+										assessment-card
+										hide-visibility
+										column
+										space-btw
+										al-center
+										j-center
+									"
 								>
 									<img
 										class="assessment-visual"
@@ -160,14 +169,21 @@
 											Find out your current status based on your response
 										</p>
 									</div>
-									<a href="./html/alcohol_assessment.html">
+									<a href="./pages/alcohol_assessment.html">
 										<button class="call-to-action btn assessment-btn">
 											start test
 										</button>
 									</a>
 								</div>
 								<div
-									class="assessment-card column space-btw al-center j-center"
+									class="
+										assessment-card
+										hide-visibility
+										column
+										space-btw
+										al-center
+										j-center
+									"
 								>
 									<img
 										class="assessment-visual"
@@ -175,12 +191,12 @@
 										alt=""
 									/>
 									<div class="assessment-info">
-										<h3 class="assessment-title">Eating disorder</h3>
+										<h3 class="assessment-title">Emotional Wellness</h3>
 										<p class="assessment-helper-text">
 											Find out your current status based on your response
 										</p>
 									</div>
-									<a href="./">
+									<a href="./pages/well_being_assessment.html">
 										<button class="call-to-action btn assessment-btn">
 											start test
 										</button>
@@ -193,7 +209,7 @@
 					</section>
 
 					<article id="services-section">
-						<div class="result">
+						<div class="result hide-visibility">
 							<div class="result-content">
 								<div class="flex-wrapper">
 									<div class="single-chart">
@@ -322,5 +338,7 @@
 				</footer>
 			</div>
 		</div>
+
+		<script src="./scripts/index.js"></script>
 	</body>
 </html>
