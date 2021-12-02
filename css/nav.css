@@ -9,6 +9,20 @@
 	margin-top: 0;
 	height: auto;
 }
+#menu-bar{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #bd009d;
+    border: .1rem groove #92007f;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+	display: none;
+    
+}
+#menu-bar:hover{
+    color:#ef5da8 ;
+    border:.1rem groove #ba68c8 ;
+}
 
 .nav-links,
 .nav-wrap {
@@ -67,6 +81,7 @@
 	outline: 0;
 	background: var(--accent-color);
 	letter-spacing: 1px;
+	text-decoration: none;
 }
 
 .call-to-action {
@@ -75,6 +90,8 @@
 
 .nav-btn {
 	width: 180px;
+	cursor: pointer;
+	
 }
 
 .nav-btn:hover {
@@ -84,7 +101,72 @@
 }
 
 @media screen and (max-width: 992px) {
-	.nav-links {
-		display: none;
+	
+	#menu-bar{
+        display: initial;
+
 	}
+	#nav-section .nav-links{
+
+	  width: 20rem;
+		position: absolute;
+		height: 33rem;
+		top: 4.6rem;
+		right: -180%;
+		bottom: 0;
+		background:#fdc0f0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		z-index: 1000;
+		flex-flow: column;
+
+		padding: 8rem 2rem;
+		transition: all .7s ease;
+	}
+#nav-section .nav-links.active{
+right: 0;
+	
+}
+	
+	
+#nav-section .nav-links .nav-wrap{
+	margin-top: -7.6rem;
+	text-align: center;
+	display: block;
+		justify-content: center;
+		align-items: center;
+	}
+	#nav-section .nav-links .nav-wrap ul{
+		display: block;
+		list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+	}
+	#nav-section .nav-links .nav-wrap ul li{
+		display: block;
+		list-style: none;
+		margin: 10px 30px ;
+		padding: 20px 0;
+	}
+	#nav-section .nav-links .nav-wrap ul li a{
+			line-height: 5rem;
+    display: block;
+				text-decoration: none;
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 1rem;
+    transition: .3s ease;
+}
+#nav-section .nav-links .nav-wrap ul li a:hover{
+	color: #ef5da8;
+	font-size: 1.3rem;
+}
+#nav-section .nav-links .nav-wrap .nav-btn{
+	margin: auto;
+}
+    
 }
