@@ -1,9 +1,6 @@
 .nav-bar {
 	background-color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 48px;
-	padding-right: 48px;
+	padding: 20px 48px;
 
 	box-shadow: 2px -4px 16px 1px #dddcdc;
 	position: sticky;
