@@ -25,6 +25,10 @@
 	box-shadow: 0px 2px 12px -2px #dddcdc;
 }
 
+.logo {
+	cursor: pointer;
+}
+
 .nav-links,
 .nav-wrap {
 	display: inline-flex;
