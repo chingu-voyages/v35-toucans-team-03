@@ -71,6 +71,12 @@
 	}
 }
 @media screen and (max-width: 992px) {
+	.content-wrap {
+		height: calc(100vh);
+
+		/* padding-top: 60px; */
+	}
+
 	.hero-description,
 	.hero-visual {
 		width: 100%;
