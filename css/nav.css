@@ -1,13 +1,13 @@
 .nav-bar {
 	background-color: #ffffff;
-	padding: 20px 48px;
-
+	padding: 14px 48px;
+	/* padding-top: 20px; */
 	box-shadow: 2px -4px 16px 1px #dddcdc;
 	position: sticky;
 	top: 0;
 	width: 100%;
 	z-index: 100;
-	margin-top: 0;
+	/* margin-top: 1px; */
 	height: auto;
 }
 #menu-bar {
@@ -16,7 +16,7 @@
 	color: #bd009d;
 	border: 0.1rem groove #92007f;
 	border-radius: 0.3rem;
-	padding: 0.4rem 0.8rem;
+	padding: 0.8rem 1.2rem;
 	display: none;
 }
 #menu-bar:hover {
