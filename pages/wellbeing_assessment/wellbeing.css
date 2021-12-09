@@ -1,0 +1,279 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300;1,900&display=swap'); */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	transition: 0.4s ease;
+}
+html {
+	font-size: 90%;
+}
+html::-webkit-scrollbar {
+	width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+	background: #ee6cc7;
+}
+html::-webkit-scrollbar-thumb {
+	background: #ffb6f9;
+	border-radius: 4rem;
+}
+.header {
+	height: 0.2rem;
+	position: fixed;
+	top: 120%;
+	left: 0;
+	right: 0;
+	display: flex;
+	z-index: 1000;
+	align-items: center;
+	justify-content: space-between;
+	background: #ffffff;
+	padding: 2rem 5%;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.header.active {
+	top: 0;
+}
+#menu-bar {
+	font-size: 1.8rem;
+	cursor: pointer;
+	color: #bd009d;
+	border: 0.1rem groove #92007f;
+	border-radius: 0.3rem;
+	padding: 0.5rem 1rem;
+	display: none;
+}
+#menu-bar:hover {
+	color: #ef5da8;
+	border: 0.1rem groove #ba68c8;
+}
+
+header .navbar a {
+	padding-left: 4rem;
+	letter-spacing: 0.04em;
+	font-weight: 300;
+	font-size: 16px;
+	margin-left: -2rem;
+	color: #ba68c8;
+	transition: all 0.1s ease-in;
+}
+header .navbar a:hover {
+	color: #ef5da8;
+}
+
+header .navbar .btn {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+	background: #ef5da8;
+	padding: 1rem;
+	color: #fff;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	margin-left: 3rem;
+	border-radius: 0.4rem;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+}
+header .navbar .btn:hover {
+	box-shadow: 0px 5px 12px rgba(167, 164, 164, 0.25);
+	background-color: #fff;
+	color: #ef5da8;
+}
+.heading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading-container .heading {
+	margin: 2rem;
+	font-weight: 900;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #f041a7;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+}
+.heading-container #angle {
+	color: #e868e8;
+	font-size: 1rem;
+	margin-top: 3rem;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+section {
+	background: #fff;
+	padding: 2rem 9%;
+	border-top: 2px solid #e868b3;
+}
+.container {
+	padding: 0.3rem;
+	border: 0.3rem solid #e868b3;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	height: 2rem;
+	width: 10rem;
+	border-radius: 3rem;
+	background: #ffffff;
+	margin-top: -3rem;
+	margin-left: -6.5rem;
+	font-size: 0.8rem;
+}
+.button-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.btn-2 {
+	font-size: 1rem;
+	margin-right: -4rem;
+	background: #e868b3;
+	color: #fff;
+	padding: 0.7rem;
+	border-radius: 0.3rem;
+}
+
+section .question {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 1rem 0;
+	color: #ff55be;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+section .options {
+	align-content: center;
+	justify-content: center;
+	line-height: 3rem;
+}
+.options .option {
+	position: relative;
+	text-transform: capitalize;
+	font-family: "Poppins", sans-serif;
+	stroke: #824a7a;
+	background: #f8f4f9;
+	text-align: center;
+	margin: 1.5rem;
+	border: 1px solid #824a7a;
+	border-radius: 3rem;
+	font-size: 1rem;
+	color: #ff68c0;
+	cursor: pointer;
+	font-weight: 700;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.option:checked {
+	background-color: #ffbef5;
+}
+.option input[type="radio"] {
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: inline-flex;
+	width: 15px;
+	height: 15px;
+	padding: 2px;
+	background-color: #f041a7;
+	background-clip: content-box;
+	border: 3px solid #bbbbbb;
+	border-radius: 50%;
+}
+.option input[type="radio"]:checked {
+	border: 4px solid #000000;
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 70%;
+	}
+	.container {
+		margin-left: -3rem;
+	}
+	.option {
+		padding: 0.2rem;
+	}
+	#menu-bar {
+		display: initial;
+	}
+	header .navbar {
+		height: 500%;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background: #e79fdc;
+		border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+		clip-path: polygon(0 0, 100% 0, 100% 0, 100% 0, 0 0);
+		transition: 0.5s ease;
+	}
+
+	header .navbar.active {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+	header .navbar a {
+		margin: 1rem;
+		padding: 1rem;
+		display: block;
+		text-align: center;
+		border-left: 1rem solid #fff;
+		background: white;
+		transition: 0.4s ease-in;
+		border-radius: 0.4rem;
+	}
+	header .navbar a:hover {
+		background: #fff;
+		border-left: 0.5rem solid #ffbef5;
+	}
+	header .navbar .btn {
+		text-align: center;
+		border: none;
+		border-left: none;
+		margin-right: 3rem;
+		margin-top: 2rem;
+	}
+	.heading-container .heading {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+	section .question {
+		font-size: 1.3rem;
+		padding: 0.7rem;
+		margin: 0.5rem;
+	}
+	.btn-2 {
+		margin-right: -2rem;
+	}
+}
+@media screen and (max-width: 560px) {
+	.heading-container .heading {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+	section .question {
+		font-size: 1rem;
+		padding: 0.7rem;
+		margin: 0.5rem;
+	}
+	.option {
+		padding: 0.2rem;
+	}
+	.option input[type="radio"] {
+		width: 13px;
+		height: 13px;
+		padding: 2px;
+		border: 2px solid #bbbbbb;
+	}
+	.option input[type="radio"]:checked {
+		width: 13px;
+		height: 13px;
+		padding: 2px;
+		border: 3px solid #000000;
+	}
+}
