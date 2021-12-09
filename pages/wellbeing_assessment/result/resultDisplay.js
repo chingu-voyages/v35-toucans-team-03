@@ -7,7 +7,7 @@ var newSum = localStorage.getItem('pointsObtained')
 
 // tabulateAnswers();
 showScore.innerHTML = `${newSum}`;
-event.stopPropagation()
+
 
 
 // So here the scale could range from - 54 points to + 54 points in total, 
@@ -16,41 +16,47 @@ event.stopPropagation()
 // scores between 0 and 24 = some room for improvement
 // scores lower than 0 = seek support to identify ways 
 // to improve general well - being by for example talking to a therapist
-var suggestionsList = document.querySelector('.suggestions-wrap')
 
-if (newSum >= 25) {
-    suggestionsList.innerHTML = ``
-} else if (newSum < 0) {
+// TODO: Add status indicator for assessment 
 
-} else if (newSum > 0 && newSum < 24) {
-    suggestionsList.innerHTML =
-        `<ul class="suggestions-group">
-        < li class="suggested-item" > 
-            <span class="suggested-item-text"> Exercise regularly</span></li >
-		<li class="suggested-item"><span class="suggested-item-text"> Eat healthy</span></li>
-		<li class="suggested-item"><span class="suggested-item-text"> Make sure to eat well</span></li>
-		<li class="suggested-item"><span class="suggested-item-text"> Make sure to rest well</span></li>
-		</ul >`
+function scoreRating(score) {
+
+    const scorePerformance = document.querySelector('.score-helper')
+    const rateWellbeing = document.querySelector('.msg-highlight');
+    const suggestionsList = document.querySelector('.suggestions-wrap');
+
+    if (score >= 25) {
+
+        scorePerformance.textContent = 'excellent score';
+        rateWellbeing.textContent = 'great general well-being';
+        suggestionsList.innerHTML =
+            `<ul class="suggestions-group">
+		        <li class="suggested-item"><span class="suggested-item-text">You are in good shape</span></li>
+            </ul >`;
+
+    } else if (score < 25 && score > 0) {
+
+        scorePerformance.textContent = 'average score'
+        rateWellbeing.textContent = ' at lesser risk but there is some room for improvement'
+        suggestionsList.innerHTML =
+            `<ul class="suggestions-group">
+		<li class="suggested-item"><span class="suggested-item-text">Think positively always</span></li>
+		<li class="suggested-item"><span class="suggested-item-text">Eat healthy</span></li>
+		<li class="suggested-item"><span class="suggested-item-text">Don't overthink</span></li>
+        <li class="suggested-item"><span class="suggested-item-text">Surround yourself with good people</span></li>
+        </ul >`
+    } else {
+
+        scorePerformance.textContent = 'low score';
+        rateWellbeing.textContent = 'at high risk and should seek support to identify ways to improve general well-being';
+        suggestionsList.innerHTML =
+            `<ul class="suggestions-group">
+		        <li class="suggested-item"><span class="suggested-item-text">See a therapist</span></li>
+		        <li class="suggested-item"><span class="suggested-item-text">Get help</span></li>
+            </ul >`;
+    }
 }
 
+scoreRating(newSum)
 
 
-
-
-
-// console.log(sum)
-// var button = document.getElementById('button');
-// function goBack() {
-//     window.history.back()
-// }
-
-
-// var button2 = document.getElementById('button2');
-
-// function newTest() {
-//     window.history.go(-2)
-// }
-
-
-// button.addEventListener('click', goBack)
-// button2.addEventListener('click', newTest)
