@@ -78,7 +78,6 @@ function tabulateAnswers(evt) {
 
         // Find out which choice got the highest score.
         sum = c1score + c2score + c3score + c4score + c5score + c6score + c7score;
-        console.log(sum)
         if (sum > 0) {
             window.location.href = './result';
             choices[i].checked = false
@@ -109,6 +108,8 @@ function resetAnswer() {
 }
 
 export var newSum = localStorage.getItem('pointsObtained')
+console.log(newSum)
+
 // export { tabulateAnswers, sum }
 
 
