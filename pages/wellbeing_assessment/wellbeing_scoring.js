@@ -15,16 +15,16 @@ var choices = document.getElementsByTagName('input');
 //     );
 // }
 
-button.addEventListener(
-    'click', tabulateAnswers
-)
+// button.addEventListener(
+//     'click', tabulateAnswers, false
+// )
 
 // console.log(form)
 
 let sum;
 
-function tabulateAnswers(evt) {
-    evt.preventDefault();
+function tabulateAnswers() {
+
     // initialize variables for each choice's score
     var c1score = 0;
     var c2score = 0;
@@ -107,13 +107,8 @@ function resetAnswer() {
 
 }
 
-export var newSum = localStorage.getItem('pointsObtained')
-console.log(newSum)
+var newSum = localStorage.getItem('pointsObtained')
 
-// export { tabulateAnswers, sum }
-
-
-// tabulateAnswers()+
 
 // Values for Options
 
