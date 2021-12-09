@@ -107,13 +107,8 @@ function resetAnswer() {
 
 }
 
-export var newSum = localStorage.getItem('pointsObtained')
-console.log(newSum)
+var newSum = localStorage.getItem('pointsObtained')
 
-// export { tabulateAnswers, sum }
-
-
-// tabulateAnswers()+
 
 // Values for Options
 
