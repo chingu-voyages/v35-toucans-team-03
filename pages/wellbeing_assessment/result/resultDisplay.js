@@ -1,4 +1,3 @@
-// import { tabulateAnswers, sum } from './../js/alcohol_score.js'
 // import { newSum } from "../wellbeing_scoring.js";
 
 var showScore = document.querySelector('.progress-tracker');
