@@ -60,3 +60,15 @@ function scoreRating(score) {
 scoreRating(newSum)
 
 
+function goToHomePage() {
+    location.href = "./../../../";
+}
+
+function startOver() {
+    history.back()
+    newSum = 0;
+}
+
+function newTest() {
+    window.history.go(-3);
+}
