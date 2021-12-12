@@ -30,9 +30,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 160%;
-
-	/* or 29px */
+	line-height: 29px;
 	text-align: center;
 	letter-spacing: 0.2em;
 
@@ -59,6 +57,7 @@
 .assessment-visual {
 	width: 128px;
 	height: 128px;
+	padding-bottom: 16px;
 }
 
 .assessment-title {
@@ -66,9 +65,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 160%;
-
-	/* or 29px */
+	line-height: 29px;
 	text-align: center;
 	letter-spacing: 0.04em;
 
@@ -80,9 +77,8 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
-	line-height: 160%;
-
-	/* or 21px */
+	line-height: 21px;
+	padding-top: 8px;
 	text-align: center;
 	letter-spacing: 0.04em;
 
@@ -94,8 +90,47 @@
 	border-radius: 32px;
 	padding: 8px 30px;
 	font-weight: 900;
+	margin-top: 12px;
 }
 
 .assessment-btn:hover {
 	background-color: #ad0093;
+}
+
+@media screen and (max-width: 600px) {
+	.assessments-title {
+		font-size: 30px;
+		margin-bottom: 48px;
+		transition: 2s ease;
+	}
+
+	.assessments-icon {
+		width: 25%;
+		transition: 2s ease;
+	}
+
+	.assessments-helper-text {
+		font-size: 16px;
+	}
+	.assessments-card-wrap {
+		gap: 48px;
+	}
+	.assessment-card {
+		width: 240px;
+		height: 292px;
+		padding: 36px 20px;
+	}
+	.assessment-visual {
+		width: 100px;
+		height: 100px;
+	}
+
+	.assessment-title {
+		font-size: 16px;
+	}
+
+	.assessment-btn {
+		padding: 6px 18px;
+		font-size: 16px;
+	}
 }
