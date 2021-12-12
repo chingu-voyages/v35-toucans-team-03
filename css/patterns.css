@@ -1,0 +1,26 @@
+.bg-triangle {
+	position: absolute;
+	top: 16px;
+	width: 12vw;
+	right: 40px;
+	opacity: 0.9;
+	z-index: -10;
+}
+
+.bg-incomp-circle {
+	position: absolute;
+	top: -36px;
+	width: 10vw;
+	left: 0px;
+	opacity: 0.9;
+	z-index: -10;
+}
+
+.bg-full-circle {
+	position: absolute;
+	left: 30%;
+	width: 10vw;
+	top: 90%;
+	opacity: 0.9;
+	z-index: -10;
+}
