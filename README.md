@@ -1,51 +1,40 @@
-# Compass App
+<!-- PROJECT SHIELDS -->
 
-<div>
-    <button style='border: none;
-        border-radius: 2px;
-        font-weight: bold;
-        padding: 4px;
-        margin-right: 4px; background: #f06529;
-        color: #333333;'>HTML</button>
-    <button style='border: none;
-        border-radius: 2px;
-        font-weight: bold;
-        padding: 4px;
-        margin-right: 4px; background: #2965f1;
-        color: #efefef;'>CSS</button>
-    <button style="border: none;
-        border-radius: 2px;
-        font-weight: bold;
-        padding: 4px;
-        margin-right: 4px; background: #f0db4f;
-        color: #333333;">JAVASCRIPT</button>
-    <button style='border: none;
-        border-radius: 2px;
-        font-weight: bold;
-        padding: 4px;
-        margin-right: 4px; background: green; color: #cecece'>CHINGU</button>
-     <button style='border: none;
-        border-radius: 2px;
-        font-weight: bold;
-        padding: 4px;
-        margin-right: 4px; background: #333333;
-        color: #cecece;'>2021</button>
-</div>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+
+[![HTML5][html5-shield]][html5-url]
+
+[![CSS3][css3-shield]][css3-url]
+
+[![JAVASCRIPT][js-shield]][js-url]
+
+[![FIGMA][figma-shield]][figma-url]
+
+[![CHINGU][chingu-shield]][chingu-url]
+
+![2021][2021-shield]
+
 <br>
+
+# Compass App
 
 _This is an app created for the purpose of creating awareness about mental health._
 
 ## Content
 
-- [Overview](#overview)
-  - [Deployment](#deployment)
-  - [Screenshot](#screenshot)
-- [How to Contribute](#how-to-contribute)
-  - [First Time](#first-time)
-  - [Returning](#returning)
-- [Collaborators](#collaborators)
-  - [Product Owner](#product-owner)
-- [Credit](#credit)
+<details>
+  - [Overview](#overview)
+    - [Deployment](#deployment)
+    - [Screenshot](#screenshot)
+  - [How to Contribute](#how-to-contribute)
+    - [First Time](#first-time)
+    - [Returning](#returning)
+  - [Collaborators](#collaborators)
+    - [Product Owner](#product-owner)
+  - [Credit](#credit)
+</details>
 
 ## Overview
 
@@ -144,3 +133,24 @@ This project is facilitated by [chingu.io](https://chingu.io)
 <!-- If you are unsure of what should go into the `readme` let this article,
 written by an experienced Chingu, be your starting point -
 [Keys to a well written README](https://tinyurl.com/yk3wubft). -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/badge/contributors-343434?style=for-the-badge
+[contributors-url]: https://github.com/chingu-voyages/v35-toucans-team-03/graphs/contributors
+[forks-shield]: https://img.shields.io/badge/forks-343434?style=for-the-badge
+[forks-url]: https://github.com/chingu-voyages/v35-toucans-team-03/network/members
+[issues-shield]: https://img.shields.io/badge/issues-343434?style=for-the-badge
+[issues-url]: https://github.com/chingu-voyages/v35-toucans-team-03/issues
+[html5-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html5-url]: https://html.spec.whatwg.org/multipage/
+[css3-shield]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css3-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[js-shield]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[js-url]: https://www.javascript.com/
+[figma-shield]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+[figma-url]: https://www.figma.com
+[chingu-shield]: https://img.shields.io/badge/chingu-047857?style=for-the-badge
+[chingu-url]: https://chingu.io/
+[2021-shield]: https://img.shields.io/badge/2021-000000?style=for-the-badge
