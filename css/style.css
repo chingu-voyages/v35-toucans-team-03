@@ -6,12 +6,15 @@
 
 /*Homepage*/
 :root {
+	/* colours */
 	--primary-color: #a56786;
 	--alt-color: #ffe3fb;
-	/* --page-colour: rgb(224, 214, 152); */
 	--heading-text-color: #301824;
 	--accent-color: #ef5da8;
-	--heading-text-size: 48px;
+
+	/* measurements */
+	--heading-text-size: 44px;
+	--heading-small-screen-text-size: 36px;
 	--page-thickness: 60px;
 	--sm-gutter: 24px;
 	--md-gutter: 36px;
@@ -119,17 +122,25 @@ hide-visibility {
 }
 
 .heading-1 {
-	font-size: var(--heading-text-size, 48px);
+	font-size: var(--heading-text-size, 44px);
 	color: var(--heading-text-color, #301824);
 	font-family: Fira Sans;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 40px;
 	line-height: 48px;
 	text-transform: capitalize;
 	letter-spacing: -0.02em;
 	color: #824a7a;
 	margin: 0;
+}
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+	.heading-1 {
+		padding-top: 36px;
+		font-size: var(--heading-small-screen-text-size, 36px);
+		line-height: 42px;
+	}
 }
 
 /*RESULT*/
