@@ -1,19 +1,13 @@
 <!-- PROJECT SHIELDS -->
 
+[![HTML5][html5-shield]][html5-url]
+[![CSS3][css3-shield]][css3-url]
+[![JAVASCRIPT][js-shield]][js-url]
+[![FIGMA][figma-shield]][figma-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-
-[![HTML5][html5-shield]][html5-url]
-
-[![CSS3][css3-shield]][css3-url]
-
-[![JAVASCRIPT][js-shield]][js-url]
-
-[![FIGMA][figma-shield]][figma-url]
-
 [![CHINGU][chingu-shield]][chingu-url]
-
 ![2021][2021-shield]
 
 <br>
@@ -24,17 +18,15 @@ _This is an app created for the purpose of creating awareness about mental healt
 
 ## Content
 
-<details>
-  - [Overview](#overview)
-    - [Deployment](#deployment)
-    - [Screenshot](#screenshot)
-  - [How to Contribute](#how-to-contribute)
-    - [First Time](#first-time)
-    - [Returning](#returning)
-  - [Collaborators](#collaborators)
-    - [Product Owner](#product-owner)
-  - [Credit](#credit)
-</details>
+- [Overview](#overview)
+  - [Deployment](#deployment)
+  - [Screenshot](#screenshot)
+- [How to Contribute](#how-to-contribute)
+  - [First Time](#first-time)
+  - [Returning](#returning)
+- [Collaborators](#collaborators)
+  - [Product Owner](#product-owner)
+- [Credit](#credit)
 
 ## Overview
 
