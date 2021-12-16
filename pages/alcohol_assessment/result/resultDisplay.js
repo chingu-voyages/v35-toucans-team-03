@@ -79,10 +79,10 @@ function goToHomePage() {
 }
 
 function startOver() {
-    history.back()
+    history.go(-2)
     alcoholSum = 0;
 }
 
 function newTest() {
-    window.history.go(-3);
+    window.history.go(-4);
 }
