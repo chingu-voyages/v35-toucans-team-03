@@ -102,28 +102,21 @@
 									alt="circular progress bar"
 								/> -->
 								<div class="progress-bar column al-center j-center">
-									<span class="progress-tracker">100%</span>
-									<span class="score-helper">excellent score</span>
+									<span class="progress-tracker"></span>
+									<span class="score-helper">see score here</span>
 								</div>
                                 
 							</div>
                             <hr class="x-divider al-stretch">
 							<div class="mental-status al-stretch">
 								<p class="status-msg">
-									You have indicated that you are <span class="status-indicator"></span> and so you are
-									at
-									<span class="msg-highlight">little to no risk.</span>
+									You have indicated that you are <span class="status-indicator">------</span> and so you are
+									<span class="msg-highlight">at little to no risk.</span>
 								</p>
 							</div>
 							<div class="suggestions-box al-stretch">
 								<h2 class="suggestions-heading">suggestions</h2>
-								<div class="suggestiions-wrap">
-									<ul class="suggestions-group">
-										<li class="suggested-item"><span class="suggested-item-text"> Exercise regularly</span></li>
-										<li class="suggested-item"><span class="suggested-item-text"> Eat healthy</span></li>
-										<li class="suggested-item"><span class="suggested-item-text"> Make sure to eat well</span></li>
-										<li class="suggested-item"><span class="suggested-item-text"> Make sure to rest well</span></li>
-									</ul>
+								<div class="suggestions-wrap">
 								</div>
 							</div>
 						</div>
@@ -186,20 +179,10 @@
 			</div>
 		</div>
 
-		<script src="./scripts/index.js"></script>
+		<script src="./../../../scripts/index.js"></script>
+		<script src="./resultDisplay.js"></script>
 		<script>
 			// history.pushState("", "", "/Alcohol-Consumption-Assessment-Result");
-			function goToHomePage() {
-				location.href = "./../../../";
-			}
-
-            function startOver(){
-                history.back()
-            }
-
-            function newTest() {
-                window.history.go(-3);
-            }
 
 		</script>
 	</body>
