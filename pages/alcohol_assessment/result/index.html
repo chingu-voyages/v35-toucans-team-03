@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alcohol Consumption Assessment Result</title>
+		<link rel="stylesheet" href="./result.css" />
+		<link rel="stylesheet" href="./../../../css/fonts.css" />
+
+		<link rel="stylesheet" href="./../../../css/style.css" />
+		<link rel="stylesheet" href="./../../../css/nav.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<header id="nav-section">
+				<div class="nav-bar row j-center al-center space-btw" id="nav--bar">
+					<img
+						src="./../../../assets/icons/logo-lg.svg"
+						class="logo"
+						alt="compass website logo"
+						onclick="goToHomePage()"
+					/>
+					<div id="menu-bar" class="fas fa-bars"></div>
+
+					<div class="nav-links row gutter-lg">
+						<nav class="nav-wrap al-center">
+							<ul class="nav-group row gutter-lg">
+								<li class="nav-item"><span class="suggested-item-text"> 
+									<a href="./../../../#hero-section" class="nav-link">Home</a>
+								</li>
+								<!-- <li class="nav-item n<span class="suggested-item-text"> av-link">
+									<a href="#hero-section" class="nav-link">About</a>
+								</li> -->
+								<li class="nav-item"><span class="suggested-item-text"> 
+									<a href="./../../../#assessments-section" class="nav-link"
+										>Assessments</a
+									>
+								</li>
+								<li class="nav-item"><span class="suggested-item-text"> 
+									<a href="./../../../#services-section" class="nav-link"
+										>Services</a
+									>
+								</li>
+								<!-- <li class="nav-item"><span class="suggested-item-text"> 
+									<a href="#" class="nav-link">Contact Us</a>
+								</li> -->
+							</ul>
+						</nav>
+						<button
+							class="call-to-action btn nav-btn"
+							onclick="startAssessment()"
+						>
+							get started
+						</button>
+					</div>
+				</div>
+			</header>
+			<!-- </div> -->
+			<div class="content-wrap wrap" id="scroll-div">
+				<main>
+					<div class="result-wrapper row space-btw j-center">
+						<div class="assessment-complete column al-center space-btw gutter-md">
+							<div class="completion-wrap column">
+                                <div class="complementary-text column gutter-sm">
+                                    <h1 class="first-heading">Yay!! You Made It!</h1>
+                                    <p class="message-content">
+                                        You have just completed the <span class="current-assessment">Alcohol consumption</span> assessment
+                                    </p>
+                                </div>
+                                <img
+                                    class="result-illustration"
+                                    src="./../../../assets/images/amico.svg"
+                                    alt=" illustration showing people celebrating"
+                                />
+                            </div>
+							<div class="assessment-controls row al-stretch space-btw">
+								<div class="retake-control control-option" onclick="startOver()">
+									<!-- <span
+                                    class="reload-icon"
+									></span> -->
+									<span class="trial-text">Try Again</span>
+								</div>
+								<span class="new-test-control control-option" onclick="newTest()">Take a new test</span>
+							</div>
+						</div>
+						<div class="result-section column al-center j-center gutter-md">
+							<div class="result-bar column al-center j-center al-stretch">
+								<!-- <img
+									src="../../../assets/images/Subtractcircle loop.svg"
+									alt="circular progress bar"
+								/> -->
+								<div class="progress-bar column al-center j-center">
+									<span class="progress-tracker">100%</span>
+									<span class="score-helper">excellent score</span>
+								</div>
+                                
+							</div>
+                            <hr class="x-divider al-stretch">
+							<div class="mental-status al-stretch">
+								<p class="status-msg">
+									You have indicated that you are <span class="status-indicator"></span> and so you are
+									at
+									<span class="msg-highlight">little to no risk.</span>
+								</p>
+							</div>
+							<div class="suggestions-box al-stretch">
+								<h2 class="suggestions-heading">suggestions</h2>
+								<div class="suggestiions-wrap">
+									<ul class="suggestions-group">
+										<li class="suggested-item"><span class="suggested-item-text"> Exercise regularly</span></li>
+										<li class="suggested-item"><span class="suggested-item-text"> Eat healthy</span></li>
+										<li class="suggested-item"><span class="suggested-item-text"> Make sure to eat well</span></li>
+										<li class="suggested-item"><span class="suggested-item-text"> Make sure to rest well</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+				<footer>
+					<div class="footer">
+						<div class="footer-content">
+							<div class="footer-title">
+								<div class="footer-logo">
+									<img src="./../../../images/logo.png" alt="logo" />
+									<h2>Compass</h2>
+								</div>
+								<div>
+									<p>
+										We believe in a scientifically tested <br />
+										psychology assessments for better <br />
+										mental health.
+									</p>
+								</div>
+								<div class="footer-socials">
+									<a class="twitter" href="/twitter">
+										<img src="./../../../images/Twitter(1).png" alt="twitter" />
+									</a>
+									<a href="/instagram">
+										<img
+											src="./../../../images/instagram(1).png "
+											alt="instagram"
+										/>
+									</a>
+									<a href="/facebook">
+										<img
+											src="./../../../images/Facebook(1).png "
+											alt="facebook"
+										/>
+									</a>
+								</div>
+							</div>
+							<div>
+								<div class="footer-links">
+									<a class="footer-link" href="/Home">HOME</a>
+									<a class="footer-link" href="/Services">SERVICES</a>
+									<a class="footer-link" href="/Faq">FAQ</a>
+									<a class="footer-link" href="/Sponsorship">SPONSORSHIP</a>
+
+									<a class="footer-link" class="footer-link" href="/About"
+										>ABOUT</a
+									>
+									<a class="footer-link" href="/Assessment">ASSESSMENTS</a>
+									<a class="footer-link" href="/Privacy">PRIVACY POLICY</a>
+									<!--	<a class="footer-link" href="/Contact">CONTACT</a> -->
+								</div>
+							</div>
+						</div>
+						<div class="footer-ending">
+							&#169; 2021. Compass Team. All Rights Reserved
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+		<script src="./scripts/index.js"></script>
+		<script>
+			// history.pushState("", "", "/Alcohol-Consumption-Assessment-Result");
+			function goToHomePage() {
+				location.href = "./../../../";
+			}
+
+            function startOver(){
+                history.back()
+            }
+
+            function newTest() {
+                window.history.go(-3);
+            }
+
+		</script>
+	</body>
+</html>
