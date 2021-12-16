@@ -104,7 +104,7 @@ Compass App was built by a team of 5.
 
 #### **Product Owner**
 
-1. <a href="https://github.com/lotthiethief">Cathy K.</a> ()
+1. <a href="https://github.com/lotthiethief">Cathy K.</a>
 
 #### **Developers**
 
@@ -121,6 +121,8 @@ Compass App was built by a team of 5.
 ## Credit
 
 This project is facilitated by [chingu.io](https://chingu.io)
+
+<!-- Add plugins used also here -->
 
 <!-- If you are unsure of what should go into the `readme` let this article,
 written by an experienced Chingu, be your starting point -
