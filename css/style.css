@@ -37,6 +37,7 @@ body {
 	display: flex;
 	/* flex-flow: row wrap; */
 	gap: 16px;
+	flex-wrap: wrap;
 }
 
 .no-wrap {
