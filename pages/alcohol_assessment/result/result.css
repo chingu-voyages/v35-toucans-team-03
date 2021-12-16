@@ -333,6 +333,10 @@
 		align-items: center;
 	}
 
+	/* .result-bar {
+		background-size: 160px;
+	} */
+
 	.assessment-complete {
 		margin-bottom: 64px;
 	}
