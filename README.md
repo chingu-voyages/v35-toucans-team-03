@@ -1,19 +1,13 @@
 <!-- PROJECT SHIELDS -->
 
+[![HTML5][html5-shield]][html5-url]
+[![CSS3][css3-shield]][css3-url]
+[![JAVASCRIPT][js-shield]][js-url]
+[![FIGMA][figma-shield]][figma-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
-
-[![HTML5][html5-shield]][html5-url]
-
-[![CSS3][css3-shield]][css3-url]
-
-[![JAVASCRIPT][js-shield]][js-url]
-
-[![FIGMA][figma-shield]][figma-url]
-
 [![CHINGU][chingu-shield]][chingu-url]
-
 ![2021][2021-shield]
 
 <br>
@@ -24,17 +18,15 @@ _This is an app created for the purpose of creating awareness about mental healt
 
 ## Content
 
-<details>
-  - [Overview](#overview)
-    - [Deployment](#deployment)
-    - [Screenshot](#screenshot)
-  - [How to Contribute](#how-to-contribute)
-    - [First Time](#first-time)
-    - [Returning](#returning)
-  - [Collaborators](#collaborators)
-    - [Product Owner](#product-owner)
-  - [Credit](#credit)
-</details>
+- [Overview](#overview)
+  - [Deployment](#deployment)
+  - [Screenshot](#screenshot)
+- [How to Contribute](#how-to-contribute)
+  - [First Time](#first-time)
+  - [Returning](#returning)
+- [Collaborators](#collaborators)
+  - [Product Owner](#product-owner)
+- [Credit](#credit)
 
 ## Overview
 
@@ -112,7 +104,7 @@ Compass App was built by a team of 5.
 
 #### **Product Owner**
 
-1. <a href="https://github.com/lotthiethief">Cathy K.</a> ()
+1. <a href="https://github.com/lotthiethief">Cathy K.</a>
 
 #### **Developers**
 
@@ -129,6 +121,8 @@ Compass App was built by a team of 5.
 ## Credit
 
 This project is facilitated by [chingu.io](https://chingu.io)
+
+<!-- Add plugins used also here -->
 
 <!-- If you are unsure of what should go into the `readme` let this article,
 written by an experienced Chingu, be your starting point -

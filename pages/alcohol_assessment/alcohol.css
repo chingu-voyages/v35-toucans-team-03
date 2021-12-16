@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	outline: none;
-	transition: 0.4s ease;
+	/* transition: 0.4s ease; */
 }
 html {
 	font-size: 90%;
@@ -13,16 +13,18 @@ html::-webkit-scrollbar {
 	width: 0.5rem;
 }
 html::-webkit-scrollbar-track {
-	background: #ffa6fb;
+	background: #e770c3;
 }
 html::-webkit-scrollbar-thumb {
-	background: #ba68e8;
+	background: #ffb6f9;
 	border-radius: 4rem;
 }
-body {
+/* body {
 	background: #f8dbf5;
-}
+} */
+
 .header {
+	font-family: "Poppins", sans-serif;
 	height: 0.2rem;
 	position: fixed;
 	top: 120%;
@@ -91,12 +93,14 @@ header .navbar .btn:hover {
 
 .heading-container .heading {
 	margin: 2rem;
-	font-weight: bolder;
-	text-align: center;
 	font-size: 1.6rem;
-	color: #e868e8;
+	font-weight: 800;
+	text-align: center;
+	color: #824a7a;
 	text-transform: uppercase;
 	font-family: "Poppins", sans-serif;
+	height: auto;
+	/* padding: 1rem; */
 }
 .heading-container #angle {
 	color: #e868e8;
@@ -107,6 +111,7 @@ header .navbar .btn:hover {
 }
 
 section {
+	background: #fff;
 	padding: 2rem 9%;
 	border-top: 2px solid #ba68e8;
 }
@@ -119,19 +124,39 @@ section {
 	height: 2rem;
 	width: 10rem;
 	border-radius: 3rem;
-	background: #f8dbf5;
+	/* background: #f8dbf5; */
+	background: #ffffff;
 	margin-top: -3rem;
-	margin-left: -6.5rem;
+	margin-left: -4.5rem;
+	/* margin-left: -6.5rem; */
 	font-size: 0.8rem;
+}
+.button-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.btn-2 {
+	font-size: 1rem;
+	margin-right: -4rem;
+	background: #ba68c8;
+	color: #fff;
+	padding: 0.7rem;
+	border-radius: 0.3rem;
 }
 
 section .question {
+	font-family: "Fira Sans", sans-serif;
+	letter-spacing: 1px;
+	line-height: 2.4rem;
 	text-align: center;
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	padding: 1rem 0;
 	color: #ba68e8;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 600;
+	transition: 0.4s ease;
 }
 
 section .options {
@@ -145,29 +170,29 @@ section .options {
 	font-family: "Poppins", sans-serif;
 	stroke: #824a7a;
 	background: #f8f4f9;
-	text-align: center;
+	/* text-align: center; */
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 0 0.4rem;
 	margin: 1.5rem;
 	border: 1px solid #824a7a;
 	border-radius: 3rem;
 	font-size: 1rem;
 	color: #b32fff;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 500;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
-.button-container {
-	display: flex;
-	align-items: flex-end;
-	justify-content: flex-end;
+
+.option .option-content {
+	width: 260px;
 }
-.btn-2 {
-	font-size: 1rem;
-	margin-right: -4rem;
-	background: #ba68c8;
-	color: #fff;
-	padding: 0.7rem;
-	border-radius: 0.3rem;
+
+.option-content .radio-btn {
+	margin-right: 2rem;
 }
+
 .option input[type="radio"] {
 	cursor: pointer;
 	-webkit-appearance: none;
@@ -177,23 +202,38 @@ section .options {
 	width: 15px;
 	height: 15px;
 	padding: 2px;
+	vertical-align: middle;
 	background-color: #ba68c8;
 	background-clip: content-box;
 	border: 3px solid #bbbbbb;
 	border-radius: 50%;
 }
+
+.option-content:focus-within {
+	font-weight: 700;
+}
+
+.option input:focus + label {
+	color: #ef5da8;
+}
+
 .option input[type="radio"]:checked {
 	border: 3px solid #000000;
 }
+
 @media screen and (max-width: 768px) {
 	html {
 		font-size: 70%;
 	}
 	.container {
-		margin-left: -3rem;
+		margin-left: -1rem;
 	}
 	.option {
 		padding: 0.2rem;
+	}
+
+	.option .option-content {
+		width: 220px;
 	}
 	#menu-bar {
 		display: initial;
@@ -267,9 +307,9 @@ section .options {
 		border: 2px solid #bbbbbb;
 	}
 	.option input[type="radio"]:checked {
-		width: 13px;
+		/* width: 13px;
 		height: 13px;
-		padding: 1.5px;
+		padding: 1.5px; */
 		border: 2px solid #000000;
 	}
 }
