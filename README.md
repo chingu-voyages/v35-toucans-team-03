@@ -111,11 +111,11 @@ Compass App was built by a team of 5.
 2. <a href="#">Ayman</a>
 3. <a href="https://github.com/beblicarl">Carl Bebi</a>
 4. <a href="https://github.com/Marrockx">Mariam Adekola</a>
-5. <a href="#">Opeoluwa</a>
+5. <a href="#">https://github.com/devopeoluwa</a>
 
 #### **Designers**
 
-1.  <a href="#">Opeoluwa</a>
+1.  <a href="#">https://github.com/devopeoluwa</a>
 2.  <a href="https://github.com/Marrockx">Mariam Adekola</a>
 
 ## Credit
