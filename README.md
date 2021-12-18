@@ -14,7 +14,7 @@
 
 # Compass App
 
-_This is an app created for the purpose of creating awareness about mental health._
+_This is an app created for the purpose of creating awareness about mental health. We have provided users with two questionnaires to assess their alcohol consumption and general well-being. After completing the assessments, we provide users with an interpretation of their results, to see whether they are within or outside of healthy ranges. Awareness is the first step to changing behaviour, so depending on the respective results users are empowered to seek help if required. We hope to break the stigma and encourage engaging with your own mental health._
 
 ## Content
 
